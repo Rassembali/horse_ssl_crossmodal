@@ -1,0 +1,12 @@
+seed: 123
+data_root: data/synthetic_horse_dataset
+imu_hz: 50
+window_s: 5.0
+clip_len: 16
+image_size: 224
+batch_size: 16
+num_workers: 2
+lr: 5.0e-4
+epochs: 10
+out_dir: outputs/runs
+num_classes: 4

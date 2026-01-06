@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+.DS_Store
+outputs/
+data/synthetic_horse_dataset/
+data/real_horse_dataset/

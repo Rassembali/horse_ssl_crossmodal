@@ -1,0 +1,25 @@
+seed: 123
+data_root: data/synthetic_horse_dataset
+imu_hz: 50
+window_s: 5.0
+clip_len: 16
+image_size: 224
+batch_size: 8
+num_workers: 2
+lr: 1.0e-4
+epochs: 5
+out_dir: outputs/runs
+freeze_video: true
+embed_dim: 256
+
+# PatchTST-like IMU encoder settings
+patch_len: 10
+patch_stride: 10
+imu_d_model: 192
+imu_nhead: 6
+imu_layers: 4
+imu_dropout: 0.1
+
+# Projection head + contrastive loss
+proj_hidden: 512
+temperature: 1.0
